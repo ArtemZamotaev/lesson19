@@ -1,0 +1,37 @@
+body{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.body-left{
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+.start{
+    display: flex;
+    
+    float: left;
+}
+.end{
+    display: flex;
+    float: right;
+}
+img:hover{
+    width: 50px;
+    height: 50px;
+    border: 1px solid black;
+}
+.intro{
+    position: relative;
+    left: 15px;
+    
+    top:-50px;
+}
+.p-intro{
+    position: relative;
+    left: 25px;
+    
+    top:-50px;
+}
